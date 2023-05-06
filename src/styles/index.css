@@ -1,0 +1,33 @@
+.ContentBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContentBox .top {
+  font-family: "Times New Roman";
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: blueviolet;
+}
+.ContentBox .text-center {
+  color: blueviolet;
+}
+.ContentBox .box {
+  width: 25rem;
+  height: 20rem;
+  background: plum;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=index.css.map */

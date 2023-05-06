@@ -6,17 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass src/styles/index.scss:src/styles/index.css",
+    "sass-w": "sass --watch src/styles/index.scss:src/styles/index.css"
   },
   "dependencies": {
     "@types/node": "20.0.0",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.4",
+    "aos": "^2.3.4",
     "eslint": "8.39.0",
     "eslint-config-next": "13.4.1",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4"
   }
 }
